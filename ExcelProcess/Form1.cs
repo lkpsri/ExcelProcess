@@ -14,6 +14,7 @@ namespace ExcelProcess
 {
     public partial class MainForm : Form
     {
+        private int version = 1;//行计数
         private int count = 0;//行计数
         private int Hfile_checked = 0;//选择了头文件
         private int choserow1 = 0;   //默认选择表格0,1列
